@@ -1,0 +1,16 @@
+.textHead {
+    color: gold;
+}
+
+.headerView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ h1{
+    font-size: 40px;
+}
+header a {
+    font-size: 90px;
+}
