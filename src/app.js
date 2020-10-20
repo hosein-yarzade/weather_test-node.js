@@ -59,7 +59,6 @@ app.get('/about', (request, response) => {
         title: 'weather / about',
         name: 'hosein'
     })
-
 });
 
 app.get('/help', (request, response) => {
@@ -80,4 +79,5 @@ app.get('*', (request, response) => {
 
 app.listen(port, () => {
     console.log('server is running ! port :' + port)
+
 });
